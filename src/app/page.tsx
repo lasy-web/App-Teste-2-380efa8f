@@ -20,11 +20,7 @@ export default function Home() {
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                Bem-vindo ao
-              </span>
-              <br />
-              <span className="text-slate-900 dark:text-slate-100">
-                Seu Novo App
+                Boa noite!
               </span>
             </h1>
             
