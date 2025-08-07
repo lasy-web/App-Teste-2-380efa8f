@@ -20,9 +20,8 @@ export default function Home() {
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                Bom dia
-              </span>
-            </h1>
+                BEM VINDO!
+              </span></h1>
 
             <p className="text-xl sm:text-2xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed">
               Hora de transformar suas ideias em realidade com tecnologias modernas e design elegante
@@ -80,14 +79,12 @@ export default function Home() {
               <CardDescription className="text-center text-base leading-relaxed">
                 Desenvolvimento seguro e eficiente com tipagem estática e melhor experiência de desenvolvimento
               </CardDescription>
-            </CardContent>
-          </Card>
+            </CardContent>          </Card>
         </div>
 
         {/* Stats Section */}
         <div className="mt-24 text-center">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-12">
-            Pronto para começar
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-12">            Pronto para começar
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -128,6 +125,5 @@ export default function Home() {
 
       {/* Footer */}
       <MadeWithLasy />
-    </div>
-  );
+    </div>  );
 }
